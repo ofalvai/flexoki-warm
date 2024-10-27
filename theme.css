@@ -82,7 +82,7 @@ settings:
 */
 
 
-.theme-light {
+.theme-light, .is-mobile.theme-light {
   --color-red-rgb: 175, 48, 41;
   --color-orange-rgb: 188, 82, 21;
   --color-yellow-rgb: 173, 131, 1;
@@ -132,7 +132,7 @@ settings:
   --color-base-100: #100F0F;
 }
 
-.theme-dark {
+.theme-dark, .is-mobile.theme-dark {
   --color-red-rgb: 209, 77, 65;
   --color-orange-rgb: 218, 112, 44;
   --color-yellow-rgb: 208, 162, 21;
